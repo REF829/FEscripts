@@ -18,13 +18,9 @@ local ImageLabel_3 = Instance.new("ImageLabel")
 local ImageLabel_4 = Instance.new("ImageLabel")
 local UICorner_8 = Instance.new("UICorner")
 local UICorner_9 = Instance.new("UICorner")
-
---Properties:
-
 fly.Name = "fly"
 fly.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 fly.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
 flygui.Name = "fly gui"
 flygui.Parent = fly
 flygui.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
@@ -32,7 +28,6 @@ flygui.BorderColor3 = Color3.fromRGB(255, 0, 0)
 flygui.BorderSizePixel = 2
 flygui.Position = UDim2.new(0.346030474, 0, 0.277886808, 0)
 flygui.Size = UDim2.new(0, 267, 0, 165)
-
 titulo.Name = "titulo"
 titulo.Parent = flygui
 titulo.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
@@ -48,21 +43,17 @@ titulo.TextSize = 14.000
 titulo.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 titulo.TextStrokeTransparency = 0.000
 titulo.TextWrapped = true
-
 UICorner.CornerRadius = UDim.new(0, 10)
 UICorner.Parent = titulo
-
 ImageLabel.Parent = flygui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(255, 0, 0)
 ImageLabel.BorderSizePixel = 2
 ImageLabel.Position = UDim2.new(0.0187267065, 0, 0, 0)
 ImageLabel.Size = UDim2.new(0, 60, 0, 50)
-ImageLabel.Image = "rbxassetid://97254757992727"
-
+ImageLabel.Image = "rbxassetid://127729059963722"
 UICorner_2.CornerRadius = UDim.new(0, 20)
 UICorner_2.Parent = ImageLabel
-
 credits.Name = "credits"
 credits.Parent = flygui
 credits.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
@@ -78,10 +69,8 @@ credits.TextSize = 14.000
 credits.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 credits.TextStrokeTransparency = 0.000
 credits.TextWrapped = true
-
 UICorner_3.CornerRadius = UDim.new(0, 20)
 UICorner_3.Parent = credits
-
 skibidimesege.Name = "skibidi mesege"
 skibidimesege.Parent = flygui
 skibidimesege.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
@@ -97,21 +86,17 @@ skibidimesege.TextSize = 14.000
 skibidimesege.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 skibidimesege.TextStrokeTransparency = 0.000
 skibidimesege.TextWrapped = true
-
 UICorner_4.CornerRadius = UDim.new(0, 20)
 UICorner_4.Parent = skibidimesege
-
 ImageLabel_2.Parent = flygui
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
 ImageLabel_2.BorderSizePixel = 2
 ImageLabel_2.Position = UDim2.new(0.741573155, 0, 0.587878704, 0)
 ImageLabel_2.Size = UDim2.new(0, 60, 0, 50)
-ImageLabel_2.Image = "rbxassetid://117690277373782"
-
+ImageLabel_2.Image = "rbxassetid://127729059963722"
 UICorner_5.CornerRadius = UDim.new(0, 20)
 UICorner_5.Parent = ImageLabel_2
-
 fly.Name = "fly"
 fly.Parent = flygui
 fly.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
@@ -127,13 +112,10 @@ fly.TextSize = 14.000
 fly.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 fly.TextStrokeTransparency = 0.000
 fly.TextWrapped = true
-
 UICorner_6.CornerRadius = UDim.new(0, 20)
 UICorner_6.Parent = fly
-
 UICorner_7.CornerRadius = UDim.new(0, 20)
 UICorner_7.Parent = flygui
-
 Spin.Name = "Spin"
 Spin.Parent = flysf
 Spin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -143,8 +125,7 @@ Spin.BorderSizePixel = 0
 Spin.Position = UDim2.new(0.034438774, 0, 0.781397402, 0)
 Spin.Size = UDim2.new(0, 85, 0, 86)
 Spin.ZIndex = 645545645
-Spin.Image = "rbxassetid://97254757992727"
-
+Spin.Image = "rbxassetid://127729059963722"
 ImageLabel_3.Parent = Spin
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_3.BackgroundTransparency = 1.000
@@ -153,8 +134,7 @@ ImageLabel_3.BorderSizePixel = 0
 ImageLabel_3.Position = UDim2.new(-0.179036394, 0, -0.216250405, 0)
 ImageLabel_3.Rotation = 234.600
 ImageLabel_3.Size = UDim2.new(0, 115, 0, 122)
-ImageLabel_3.Image = "http://www.roblox.com/asset/?id=7102118272"
-
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=127729059963722"
 ImageLabel_4.Parent = ImageLabel_3
 ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_4.BackgroundTransparency = 1.000
@@ -164,15 +144,10 @@ ImageLabel_4.Position = UDim2.new(0.210047528, 0, -0.160921201, 0)
 ImageLabel_4.Size = UDim2.new(0, 52, 0, 32)
 ImageLabel_4.Image = "rbxasset://textures/SpawnLocation.png"
 ImageLabel_4.ScaleType = Enum.ScaleType.Fit
-
 UICorner_8.CornerRadius = UDim.new(5, 120)
 UICorner_8.Parent = ImageLabel_4
-
 UICorner_9.CornerRadius = UDim.new(0, 70)
 UICorner_9.Parent = Spin
-
--- Scripts:
-
 local function LYXQNMF_fake_script() -- fly.MainScript 
 	local script = Instance.new('Script', fly)
 
