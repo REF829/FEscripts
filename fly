@@ -1,0 +1,307 @@
+local fly = Instance.new("ScreenGui")
+local flygui = Instance.new("Frame")
+local titulo = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local credits = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local skibidimesege = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local fly = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
+local Spin = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+
+--Properties:
+
+fly.Name = "fly"
+fly.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+fly.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+flygui.Name = "fly gui"
+flygui.Parent = fly
+flygui.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+flygui.BorderColor3 = Color3.fromRGB(255, 0, 0)
+flygui.BorderSizePixel = 2
+flygui.Position = UDim2.new(0.346030474, 0, 0.277886808, 0)
+flygui.Size = UDim2.new(0, 267, 0, 165)
+
+titulo.Name = "titulo"
+titulo.Parent = flygui
+titulo.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
+titulo.BorderColor3 = Color3.fromRGB(255, 0, 0)
+titulo.BorderSizePixel = 2
+titulo.Position = UDim2.new(0.243445814, 0, 0, 0)
+titulo.Size = UDim2.new(0, 193, 0, 50)
+titulo.Font = Enum.Font.Bangers
+titulo.Text = "N1C0L3 FLY"
+titulo.TextColor3 = Color3.fromRGB(255, 0, 0)
+titulo.TextScaled = true
+titulo.TextSize = 14.000
+titulo.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+titulo.TextStrokeTransparency = 0.000
+titulo.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = titulo
+
+ImageLabel.Parent = flygui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(255, 0, 0)
+ImageLabel.BorderSizePixel = 2
+ImageLabel.Position = UDim2.new(0.0187267065, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 60, 0, 50)
+ImageLabel.Image = "rbxassetid://97254757992727"
+
+UICorner_2.CornerRadius = UDim.new(0, 20)
+UICorner_2.Parent = ImageLabel
+
+credits.Name = "credits"
+credits.Parent = flygui
+credits.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
+credits.BorderColor3 = Color3.fromRGB(255, 0, 0)
+credits.BorderSizePixel = 2
+credits.Position = UDim2.new(0.340824097, 0, 0.303030223, 0)
+credits.Size = UDim2.new(0, 142, 0, 32)
+credits.Font = Enum.Font.Bangers
+credits.Text = "T3@M N1C0L3 J01N T0D@Y!"
+credits.TextColor3 = Color3.fromRGB(255, 0, 0)
+credits.TextScaled = true
+credits.TextSize = 14.000
+credits.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+credits.TextStrokeTransparency = 0.000
+credits.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 20)
+UICorner_3.Parent = credits
+
+skibidimesege.Name = "skibidi mesege"
+skibidimesege.Parent = flygui
+skibidimesege.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
+skibidimesege.BorderColor3 = Color3.fromRGB(255, 0, 0)
+skibidimesege.BorderSizePixel = 2
+skibidimesege.Position = UDim2.new(0.0262172278, 0, 0.303030223, 0)
+skibidimesege.Size = UDim2.new(0, 67, 0, 32)
+skibidimesege.Font = Enum.Font.Bangers
+skibidimesege.Text = "team g00bykidd"
+skibidimesege.TextColor3 = Color3.fromRGB(255, 0, 0)
+skibidimesege.TextScaled = true
+skibidimesege.TextSize = 14.000
+skibidimesege.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+skibidimesege.TextStrokeTransparency = 0.000
+skibidimesege.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 20)
+UICorner_4.Parent = skibidimesege
+
+ImageLabel_2.Parent = flygui
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+ImageLabel_2.BorderSizePixel = 2
+ImageLabel_2.Position = UDim2.new(0.741573155, 0, 0.587878704, 0)
+ImageLabel_2.Size = UDim2.new(0, 60, 0, 50)
+ImageLabel_2.Image = "rbxassetid://117690277373782"
+
+UICorner_5.CornerRadius = UDim.new(0, 20)
+UICorner_5.Parent = ImageLabel_2
+
+fly.Name = "fly"
+fly.Parent = flygui
+fly.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
+fly.BorderColor3 = Color3.fromRGB(255, 0, 0)
+fly.BorderSizePixel = 2
+fly.Position = UDim2.new(0.0173048377, 0, 0.563636243, 0)
+fly.Size = UDim2.new(0, 193, 0, 58)
+fly.Font = Enum.Font.Bangers
+fly.Text = "FLY"
+fly.TextColor3 = Color3.fromRGB(255, 0, 0)
+fly.TextScaled = true
+fly.TextSize = 14.000
+fly.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextStrokeTransparency = 0.000
+fly.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 20)
+UICorner_6.Parent = fly
+
+UICorner_7.CornerRadius = UDim.new(0, 20)
+UICorner_7.Parent = flygui
+
+Spin.Name = "Spin"
+Spin.Parent = flysf
+Spin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Spin.BackgroundTransparency = 1.000
+Spin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Spin.BorderSizePixel = 0
+Spin.Position = UDim2.new(0.034438774, 0, 0.781397402, 0)
+Spin.Size = UDim2.new(0, 85, 0, 86)
+Spin.ZIndex = 645545645
+Spin.Image = "rbxassetid://97254757992727"
+
+ImageLabel_3.Parent = Spin
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(-0.179036394, 0, -0.216250405, 0)
+ImageLabel_3.Rotation = 234.600
+ImageLabel_3.Size = UDim2.new(0, 115, 0, 122)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=7102118272"
+
+ImageLabel_4.Parent = ImageLabel_3
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.210047528, 0, -0.160921201, 0)
+ImageLabel_4.Size = UDim2.new(0, 52, 0, 32)
+ImageLabel_4.Image = "rbxasset://textures/SpawnLocation.png"
+ImageLabel_4.ScaleType = Enum.ScaleType.Fit
+
+UICorner_8.CornerRadius = UDim.new(5, 120)
+UICorner_8.Parent = ImageLabel_4
+
+UICorner_9.CornerRadius = UDim.new(0, 70)
+UICorner_9.Parent = Spin
+
+-- Scripts:
+
+local function LYXQNMF_fake_script() -- fly.MainScript 
+	local script = Instance.new('Script', fly)
+
+	local Camera = workspace.CurrentCamera
+	local Tool = script.Parent
+	local Active = false
+	local Plr
+	local Speed = 1.5
+	
+	Tool:GetPropertyChangedSignal("Parent"):Connect(function()
+		if Plr==nil or Tool.Parent~=Plr.Backpack and Tool.Parent~=Plr.Character then
+			Active = false
+		end
+	end)
+	
+	Tool.Activated:Connect(function()
+		Active = not Active
+		if Active then
+			wait()
+			Plr = game.Players.LocalPlayer
+			local Char = Plr.Character
+			local Human = Char:FindFirstChildOfClass("Humanoid")
+			local Torso = Char:FindFirstChild("HumanoidRootPart")
+	
+			Active = true
+	
+			local Force = Instance.new("BodyVelocity")
+			local Spin = Instance.new("BodyGyro")
+			Spin.P = 10000
+			Spin.MaxTorque = Vector3.new(Spin.P,Spin.P,Spin.P)*100
+			Spin.CFrame = Torso.CFrame
+	
+			Force.Velocity = Vector3.new(0,0,0)
+			Force.P = 1000
+			Force.MaxForce = Vector3.new(Force.P,Force.P,Force.P)*100
+	
+			Force.Parent = Torso
+			Spin.Parent = Torso
+	
+			Human.PlatformStand = true
+			Human.AutoRotate = false
+			Human:ChangeState(Enum.HumanoidStateType.Freefall)
+	
+			while Active do
+				wait()
+				local Push = Vector3.new(0, 0, 0)
+				local FV = Camera.CFrame:VectorToWorldSpace(Vector3.new(0, 0, -1))
+				local SV = Camera.CFrame:VectorToWorldSpace(Vector3.new(-1, 0, 0))
+	
+				local CoFrame = Camera.CFrame
+				local CV = CFrame.new(Vector3.new(0,0,0),CoFrame.LookVector*Vector3.new(1,0,1)):VectorToObjectSpace(Human.MoveDirection)
+	
+				Push = Push + ((FV * (60*Speed) * -CV.z) or Push)
+				Push = Push + ((SV * (40*Speed) * -CV.x) or Push)
+	
+				Spin.CFrame = CFrame.new(Vector3.new(0, 0, 0), FV)
+	
+				Force.Velocity = Force.Velocity:Lerp(Push, 0.2)
+				
+				if not Human.PlatformStand then
+					Human.PlatformStand = true
+				end
+				
+				if Human.AutoRotate then
+					Human.AutoRotate = false
+				end
+			end
+	
+			Spin:Destroy()
+			Force:Destroy()
+	
+			Human.PlatformStand = false
+			Human.AutoRotate = true
+		end
+	end)
+end
+coroutine.wrap(LYXQNMF_fake_script)()
+local function FNSUAJW_fake_script() -- flygui.drag 
+	local script = Instance.new('LocalScript', flygui)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(FNSUAJW_fake_script)()
+local function OJNNC_fake_script() -- ImageLabel_3.SPIn 
+	local script = Instance.new('LocalScript', ImageLabel_3)
+
+	counter = 0
+	while true do
+		counter = counter + 0.6
+		wait()
+		script.Parent.Rotation = counter
+	end
+end
+coroutine.wrap(OJNNC_fake_script)()
